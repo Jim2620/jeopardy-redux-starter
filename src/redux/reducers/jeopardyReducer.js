@@ -1,5 +1,6 @@
 import * as types from "../actions/actionTypes";
 
+//Inital state for the Jeopardy game
 const initialState = {
   questionData: {},
   categories: [],
@@ -10,14 +11,10 @@ export default function jeopardyReducer(state = initialState, action) {
 
   switch (action.type) {
     
+    //CASE FOR GET_CATEGORIES
     case types.GET_CATEGORIES:
       return Object.assign({}, state, {categories: action.categories} );
 
-    case types.GET_QUESTION:
-      return Object.assign({}, state, {questionData: action.questionData} );
-    
-    case types.UPDATE_SCORE:
-      return Object.assign({}, state, {score: action.score, questionData: {}} );
 
     default:
       return state;
