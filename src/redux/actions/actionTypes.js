@@ -1,0 +1,3 @@
+export const GET_CATEGORIES = "GET_CATEGORIES";
+export const GET_QUESTION = "GET_QUESTION";
+export const UPDATE_SCORE = "UPDATE_SCORE";
