@@ -1,5 +1,5 @@
 import React from 'react';
-import Jeopardy from './components/jeopardy/jeopardy';
+import Jeopardy from './components/jeopardy/Jeopardy';
 
 const App = () => {
 
