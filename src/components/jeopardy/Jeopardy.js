@@ -4,9 +4,9 @@ import _ from "lodash"
 //import our service
 import JeopardyService from "../../jeopardyService";
 
-import GameBoard from "./gameboard"
+import GameBoard from "./Gameboard"
 
-import Categories from "./categories"
+import Categories from "./Categories"
 
 class Jeopardy extends Component {
 
